@@ -62,6 +62,8 @@
             tipoDeResidente = new DataGridViewTextBoxColumn();
             estadoDePago = new DataGridViewTextBoxColumn();
             btnVolver = new Button();
+            label11 = new Label();
+            btnOrdenar = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvResidentes).BeginInit();
             SuspendLayout();
             // 
@@ -249,7 +251,7 @@
             btnRegistrar.Font = new Font("Segoe UI", 12F);
             btnRegistrar.Location = new Point(63, 353);
             btnRegistrar.Name = "btnRegistrar";
-            btnRegistrar.Size = new Size(265, 47);
+            btnRegistrar.Size = new Size(183, 47);
             btnRegistrar.TabIndex = 21;
             btnRegistrar.Text = "Registrar";
             btnRegistrar.UseVisualStyleBackColor = true;
@@ -258,9 +260,9 @@
             // btnBuscar
             // 
             btnBuscar.Font = new Font("Segoe UI", 12F);
-            btnBuscar.Location = new Point(350, 353);
+            btnBuscar.Location = new Point(252, 353);
             btnBuscar.Name = "btnBuscar";
-            btnBuscar.Size = new Size(265, 47);
+            btnBuscar.Size = new Size(183, 47);
             btnBuscar.TabIndex = 22;
             btnBuscar.Text = "Buscar";
             btnBuscar.UseVisualStyleBackColor = true;
@@ -269,9 +271,9 @@
             // btnModificar
             // 
             btnModificar.Font = new Font("Segoe UI", 12F);
-            btnModificar.Location = new Point(63, 416);
+            btnModificar.Location = new Point(441, 353);
             btnModificar.Name = "btnModificar";
-            btnModificar.Size = new Size(265, 47);
+            btnModificar.Size = new Size(183, 47);
             btnModificar.TabIndex = 23;
             btnModificar.Text = "Modificar";
             btnModificar.UseVisualStyleBackColor = true;
@@ -280,9 +282,9 @@
             // btnLimpiar
             // 
             btnLimpiar.Font = new Font("Segoe UI", 12F);
-            btnLimpiar.Location = new Point(350, 416);
+            btnLimpiar.Location = new Point(630, 353);
             btnLimpiar.Name = "btnLimpiar";
-            btnLimpiar.Size = new Size(265, 47);
+            btnLimpiar.Size = new Size(183, 47);
             btnLimpiar.TabIndex = 24;
             btnLimpiar.Text = "Limpiar";
             btnLimpiar.UseVisualStyleBackColor = true;
@@ -294,12 +296,12 @@
             dgvResidentes.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvResidentes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvResidentes.Columns.AddRange(new DataGridViewColumn[] { codigo, dni, nombres, apellidos, manzana, lote, telefono, tipoDeResidente, estadoDePago });
-            dgvResidentes.Location = new Point(63, 495);
+            dgvResidentes.Location = new Point(63, 466);
             dgvResidentes.MultiSelect = false;
             dgvResidentes.Name = "dgvResidentes";
             dgvResidentes.ReadOnly = true;
             dgvResidentes.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvResidentes.Size = new Size(885, 392);
+            dgvResidentes.Size = new Size(832, 426);
             dgvResidentes.TabIndex = 25;
             // 
             // codigo
@@ -359,7 +361,7 @@
             // btnVolver
             // 
             btnVolver.Font = new Font("Segoe UI", 12F);
-            btnVolver.Location = new Point(833, 916);
+            btnVolver.Location = new Point(780, 916);
             btnVolver.Name = "btnVolver";
             btnVolver.Size = new Size(115, 47);
             btnVolver.TabIndex = 26;
@@ -367,11 +369,34 @@
             btnVolver.UseVisualStyleBackColor = true;
             btnVolver.Click += btnVolver_Click_1;
             // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Font = new Font("Segoe UI", 12F);
+            label11.Location = new Point(64, 422);
+            label11.Name = "label11";
+            label11.Size = new Size(142, 21);
+            label11.TabIndex = 27;
+            label11.Text = "Lista de Residentes";
+            // 
+            // btnOrdenar
+            // 
+            btnOrdenar.Font = new Font("Segoe UI", 12F);
+            btnOrdenar.Location = new Point(780, 422);
+            btnOrdenar.Name = "btnOrdenar";
+            btnOrdenar.Size = new Size(115, 34);
+            btnOrdenar.TabIndex = 28;
+            btnOrdenar.Text = "Ordenar A-Z";
+            btnOrdenar.UseVisualStyleBackColor = true;
+            btnOrdenar.Click += btnOrdenar_Click;
+            // 
             // FrmResidentes
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1007, 991);
+            ClientSize = new Size(1007, 1061);
+            Controls.Add(btnOrdenar);
+            Controls.Add(label11);
             Controls.Add(btnVolver);
             Controls.Add(dgvResidentes);
             Controls.Add(btnLimpiar);
@@ -440,5 +465,7 @@
         private DataGridViewTextBoxColumn tipoDeResidente;
         private DataGridViewTextBoxColumn estadoDePago;
         private Button btnVolver;
+        private Label label11;
+        private Button btnOrdenar;
     }
 }

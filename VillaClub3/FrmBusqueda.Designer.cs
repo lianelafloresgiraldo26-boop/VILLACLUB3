@@ -35,7 +35,7 @@
             label1 = new Label();
             btnLimpiar = new Button();
             btnBuscar = new Button();
-            button1 = new Button();
+            btnVolver = new Button();
             dgvResidentes = new DataGridView();
             codigo = new DataGridViewTextBoxColumn();
             dni = new DataGridViewTextBoxColumn();
@@ -99,32 +99,35 @@
             // btnLimpiar
             // 
             btnLimpiar.Font = new Font("Segoe UI", 12F);
-            btnLimpiar.Location = new Point(302, 181);
+            btnLimpiar.Location = new Point(760, 105);
             btnLimpiar.Name = "btnLimpiar";
-            btnLimpiar.Size = new Size(173, 47);
+            btnLimpiar.Size = new Size(120, 47);
             btnLimpiar.TabIndex = 26;
             btnLimpiar.Text = "Limpiar";
             btnLimpiar.UseVisualStyleBackColor = true;
+            btnLimpiar.Click += btnLimpiar_Click;
             // 
             // btnBuscar
             // 
             btnBuscar.Font = new Font("Segoe UI", 12F);
-            btnBuscar.Location = new Point(59, 181);
+            btnBuscar.Location = new Point(624, 105);
             btnBuscar.Name = "btnBuscar";
-            btnBuscar.Size = new Size(173, 47);
+            btnBuscar.Size = new Size(120, 47);
             btnBuscar.TabIndex = 25;
             btnBuscar.Text = "Buscar";
             btnBuscar.UseVisualStyleBackColor = true;
+            btnBuscar.Click += btnBuscar_Click;
             // 
-            // button1
+            // btnVolver
             // 
-            button1.Font = new Font("Segoe UI", 12F);
-            button1.Location = new Point(560, 181);
-            button1.Name = "button1";
-            button1.Size = new Size(173, 47);
-            button1.TabIndex = 27;
-            button1.Text = "Limpiar";
-            button1.UseVisualStyleBackColor = true;
+            btnVolver.Font = new Font("Segoe UI", 12F);
+            btnVolver.Location = new Point(771, 415);
+            btnVolver.Name = "btnVolver";
+            btnVolver.Size = new Size(109, 47);
+            btnVolver.TabIndex = 27;
+            btnVolver.Text = "Volver";
+            btnVolver.UseVisualStyleBackColor = true;
+            btnVolver.Click += btnVolver_Click;
             // 
             // dgvResidentes
             // 
@@ -132,12 +135,12 @@
             dgvResidentes.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvResidentes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvResidentes.Columns.AddRange(new DataGridViewColumn[] { codigo, dni, nombres, apellidos, manzana, lote, telefono, tipoDeResidente, estadoDePago });
-            dgvResidentes.Location = new Point(59, 252);
+            dgvResidentes.Location = new Point(59, 176);
             dgvResidentes.MultiSelect = false;
             dgvResidentes.Name = "dgvResidentes";
             dgvResidentes.ReadOnly = true;
             dgvResidentes.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvResidentes.Size = new Size(674, 222);
+            dgvResidentes.Size = new Size(821, 222);
             dgvResidentes.TabIndex = 28;
             // 
             // codigo
@@ -198,9 +201,9 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 504);
+            ClientSize = new Size(938, 509);
             Controls.Add(dgvResidentes);
-            Controls.Add(button1);
+            Controls.Add(btnVolver);
             Controls.Add(btnLimpiar);
             Controls.Add(btnBuscar);
             Controls.Add(txtDnix);
@@ -224,7 +227,7 @@
         private Label label1;
         private Button btnLimpiar;
         private Button btnBuscar;
-        private Button button1;
+        private Button btnVolver;
         private DataGridView dgvResidentes;
         private DataGridViewTextBoxColumn codigo;
         private DataGridViewTextBoxColumn dni;
