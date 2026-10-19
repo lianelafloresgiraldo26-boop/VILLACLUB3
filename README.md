@@ -8,4 +8,4 @@ aplicando estructuras de control, funciones y arreglos con buenas prácticas de 
 - Visual Studio 2022
 - .NET Framework 4.7.2 o superior
 - Git
-- Python 3.x
+
