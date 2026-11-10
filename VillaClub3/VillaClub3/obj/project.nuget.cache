@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "HsZ+/HAHlDI=",
+  "dgSpecHash": "/RdmM0lEkMw=",
   "success": true,
-  "projectFilePath": "E:\\UPN\\CICLO III\\Fundamentos de Programación\\proyecto\\VillaClub3\\VillaClub3\\VillaClub3.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\usuar\\source\\repos\\VILLACLUB3\\VillaClub3\\VillaClub3\\VillaClub3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\usuar\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.32\\microsoft.windowsdesktop.app.ref.8.0.32.nupkg.sha512",
+    "C:\\Users\\usuar\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.32\\microsoft.netcore.app.ref.8.0.32.nupkg.sha512",
+    "C:\\Users\\usuar\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.32\\microsoft.aspnetcore.app.ref.8.0.32.nupkg.sha512",
+    "C:\\Users\\usuar\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.32\\microsoft.netcore.app.host.win-x64.8.0.32.nupkg.sha512"
+  ],
   "logs": []
 }

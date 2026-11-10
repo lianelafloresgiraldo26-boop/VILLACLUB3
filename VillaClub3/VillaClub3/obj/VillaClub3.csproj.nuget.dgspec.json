@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\UPN\\CICLO III\\Fundamentos de Programación\\proyecto\\VillaClub3\\VillaClub3\\VillaClub3.csproj": {}
+    "C:\\Users\\usuar\\source\\repos\\VILLACLUB3\\VillaClub3\\VillaClub3\\VillaClub3.csproj": {}
   },
   "projects": {
-    "E:\\UPN\\CICLO III\\Fundamentos de Programación\\proyecto\\VillaClub3\\VillaClub3\\VillaClub3.csproj": {
+    "C:\\Users\\usuar\\source\\repos\\VILLACLUB3\\VillaClub3\\VillaClub3\\VillaClub3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\UPN\\CICLO III\\Fundamentos de Programación\\proyecto\\VillaClub3\\VillaClub3\\VillaClub3.csproj",
+        "projectUniqueName": "C:\\Users\\usuar\\source\\repos\\VILLACLUB3\\VillaClub3\\VillaClub3\\VillaClub3.csproj",
         "projectName": "VillaClub3",
-        "projectPath": "E:\\UPN\\CICLO III\\Fundamentos de Programación\\proyecto\\VillaClub3\\VillaClub3\\VillaClub3.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\UPN\\CICLO III\\Fundamentos de Programación\\proyecto\\VillaClub3\\VillaClub3\\obj\\",
+        "projectPath": "C:\\Users\\usuar\\source\\repos\\VILLACLUB3\\VillaClub3\\VillaClub3\\VillaClub3.csproj",
+        "packagesPath": "C:\\Users\\usuar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\usuar\\source\\repos\\VILLACLUB3\\VillaClub3\\VillaClub3\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\usuar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,7 +25,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0-windows7.0": {
+          "net8.0-windows": {
+            "framework": "net8.0-windows7.0",
             "targetAlias": "net8.0-windows",
             "projectReferences": {}
           }
@@ -44,10 +41,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "11.0.100"
       },
       "frameworks": {
-        "net8.0-windows7.0": {
+        "net8.0-windows": {
+          "framework": "net8.0-windows7.0",
           "targetAlias": "net8.0-windows",
           "imports": [
             "net461",
@@ -60,6 +58,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.32, 8.0.32]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.32, 8.0.32]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.32, 8.0.32]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.32, 8.0.32]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -68,7 +84,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\11.0.100-rc.2.26504.105/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

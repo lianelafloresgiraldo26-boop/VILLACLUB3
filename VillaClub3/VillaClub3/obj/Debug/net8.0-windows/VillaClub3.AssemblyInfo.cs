@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VillaClub3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dbc6f92f7a1d2dd02af8d462b1a9bda9e6911563")]
 [assembly: System.Reflection.AssemblyProductAttribute("VillaClub3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VillaClub3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
