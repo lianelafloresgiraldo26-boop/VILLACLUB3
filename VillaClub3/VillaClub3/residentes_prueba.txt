@@ -1,0 +1,10 @@
+﻿001,12345678,Carlos Perez,A,01,987654321,Propietario,Al dia
+002,87654321,Maria Lopez,B,02,987654322,Inquilino,Con deuda
+003,11223344,Jose Garcia,A,03,987654323,Propietario,Al dia
+004,22334455,Ana Torres,C,04,987654324,Inquilino,Al dia
+005,33445566,Luis Ramirez,B,05,987654325,Propietario,Con deuda
+006,44556677,Rosa Flores,D,06,987654326,Inquilino,Al dia
+007,55667788,Pedro Sanchez,C,07,987654327,Propietario,Al dia
+008,66778899,Lucia Mendoza,A,08,987654328,Inquilino,Con deuda
+009,77889911,Miguel Castro,D,09,987654329,Propietario,Al dia
+010,88991122,Sofia Vargas,B,10,987654330,Inquilino,Al dia

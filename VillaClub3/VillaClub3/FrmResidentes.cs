@@ -1,17 +1,96 @@
 ﻿
 using System;
-using System.Windows.Forms;
+using System.IO;
+using System.Windows.Forms;           
 
 namespace VillaClub3
 {
     public partial class FrmResidentes : Form
     {
+        private readonly string rutaArchivo =
+           Path.Combine(Application.StartupPath, "residentes.txt");
         public FrmResidentes()
         {
             InitializeComponent();
             dgvResidentes.CellClick += dgvResidentes_CellClick;
+            this.Load += FrmResidentes_Load;
         }
 
+        // Al abrir el formulario se cargan los residentes guardados
+        private void FrmResidentes_Load(object sender, EventArgs e)
+        {
+            CargarResidentes();
+        }
+
+        // Guarda todas las filas del DataGridView en el .txt
+        private void GuardarResidentes()
+        {
+            StreamWriter escritor = new StreamWriter(rutaArchivo);
+
+            for (int i = 0; i < dgvResidentes.Rows.Count; i++)
+            {
+                if (dgvResidentes.Rows[i].IsNewRow)
+                {
+                    continue;
+                }
+
+                string linea = "";
+
+                for (int j = 0; j < 9; j++)
+                {
+                    linea = linea + Convert.ToString(dgvResidentes.Rows[i].Cells[j].Value);
+
+                    if (j < 8)
+                    {
+                        linea = linea + "|";
+                    }
+                }
+
+                escritor.WriteLine(linea);
+            }
+
+            escritor.Close();
+        }
+
+        // Lee el .txt y muestra los residentes en el DataGridView
+        private void CargarResidentes()
+        {
+            if (!File.Exists(rutaArchivo))
+            {
+                return;
+            }
+
+            dgvResidentes.Rows.Clear();
+
+            string[] lineas = File.ReadAllLines(rutaArchivo);
+
+            for (int i = 0; i < lineas.Length; i++)
+            {
+                if (lineas[i].Trim() == "")
+                {
+                    continue;
+                }
+
+                string[] campos = lineas[i].Split('|');
+
+                if (campos.Length != 9)
+                {
+                    continue;
+                }
+
+                dgvResidentes.Rows.Add(
+                    campos[0],
+                    campos[1],
+                    campos[2],
+                    campos[3],
+                    campos[4],
+                    campos[5],
+                    campos[6],
+                    campos[7],
+                    campos[8]
+                );
+            }
+        }
 
 
         private void LimpiarCampos()
@@ -63,7 +142,16 @@ namespace VillaClub3
                     MessageBoxIcon.Warning);
                 return;
             }
-
+            if (cboTipoResidente.SelectedIndex == -1 ||
+                cboEstadoPago.SelectedIndex == -1)
+            {
+                MessageBox.Show(
+                    "Selecciona el tipo de residente y el estado de pago.",
+                    "Validación",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+                return;
+            }
 
             if (dni.Length != 8)
             {
@@ -168,6 +256,8 @@ namespace VillaClub3
                 cboTipoResidente.Text,
                 cboEstadoPago.Text
             );
+
+            GuardarResidentes();
 
             MessageBox.Show(
                 "Residente registrado correctamente.",
@@ -422,6 +512,8 @@ namespace VillaClub3
             filaSeleccionada.Cells[7].Value = cboTipoResidente.Text;
             filaSeleccionada.Cells[8].Value = cboEstadoPago.Text;
 
+            GuardarResidentes();
+
             MessageBox.Show(
                 "Residente modificado correctamente.",
                 "Modificación",
@@ -581,9 +673,118 @@ namespace VillaClub3
                 }
             }
 
+            GuardarResidentes();
+
             MessageBox.Show(
                 "Residentes ordenados alfabéticamente de A a Z.",
                 "Ordenamiento",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Information);
+        }
+
+        private void btnSubir_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog dialogo = new OpenFileDialog();
+            dialogo.Title = "Selecciona el archivo de residentes";
+            dialogo.Filter = "Archivos de texto (*.txt)|*.txt";
+
+            if (dialogo.ShowDialog() != DialogResult.OK)
+            {
+                return;
+            }
+
+            string[] lineas = File.ReadAllLines(dialogo.FileName);
+
+            int agregados = 0;
+            int repetidos = 0;
+
+            for (int i = 0; i < lineas.Length; i++)
+            {
+                if (lineas[i].Trim() == "")
+                {
+                    continue;
+                }
+
+                string[] campos = lineas[i].Split(',');
+
+                if (campos.Length != 8)
+                {
+                    continue;
+                }
+
+                string codigo = campos[0].Trim();
+                string dni = campos[1].Trim();
+                string nombreCompleto = campos[2].Trim();
+                string manzana = campos[3].Trim();
+                string lote = campos[4].Trim();
+                string telefono = campos[5].Trim();
+                string tipo = campos[6].Trim();
+                string estadoPago = campos[7].Trim();
+
+                // Separar nombres y apellidos
+                string nombres = nombreCompleto;
+                string apellidos = "";
+
+                int espacio = nombreCompleto.IndexOf(' ');
+
+                if (espacio > 0)
+                {
+                    nombres = nombreCompleto.Substring(0, espacio);
+                    apellidos = nombreCompleto.Substring(espacio + 1);
+                }
+
+                // Revisar si el código o el DNI ya están en la tabla
+                bool existe = false;
+
+                for (int k = 0; k < dgvResidentes.Rows.Count; k++)
+                {
+                    if (dgvResidentes.Rows[k].IsNewRow)
+                    {
+                        continue;
+                    }
+
+                    string codigoFila =
+                        Convert.ToString(dgvResidentes.Rows[k].Cells[0].Value);
+
+                    string dniFila =
+                        Convert.ToString(dgvResidentes.Rows[k].Cells[1].Value);
+
+                    if (string.Equals(codigoFila, codigo,
+                        StringComparison.OrdinalIgnoreCase) ||
+                        dniFila == dni)
+                    {
+                        existe = true;
+                        break;
+                    }
+                }
+
+                if (existe)
+                {
+                    repetidos++;
+                    continue;
+                }
+
+                dgvResidentes.Rows.Add(
+                    codigo,
+                    dni,
+                    nombres,
+                    apellidos,
+                    manzana,
+                    lote,
+                    telefono,
+                    tipo,
+                    estadoPago
+                );
+
+                agregados++;
+            }
+
+            GuardarResidentes();
+
+            MessageBox.Show(
+                "Residentes agregados: " + agregados +
+                "\nResidentes repetidos (omitidos): " + repetidos,
+                "Subir datos",
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Information);
         }
