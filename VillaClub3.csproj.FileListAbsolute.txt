@@ -1,0 +1,81 @@
+E:\UPN\CICLO III\Fundamentos de Programación\proyecto\VillaClub3\VillaClub3\bin\Debug\net8.0-windows\VillaClub3.exe
+E:\UPN\CICLO III\Fundamentos de Programación\proyecto\VillaClub3\VillaClub3\bin\Debug\net8.0-windows\VillaClub3.deps.json
+E:\UPN\CICLO III\Fundamentos de Programación\proyecto\VillaClub3\VillaClub3\bin\Debug\net8.0-windows\VillaClub3.runtimeconfig.json
+E:\UPN\CICLO III\Fundamentos de Programación\proyecto\VillaClub3\VillaClub3\bin\Debug\net8.0-windows\VillaClub3.dll
+E:\UPN\CICLO III\Fundamentos de Programación\proyecto\VillaClub3\VillaClub3\bin\Debug\net8.0-windows\VillaClub3.pdb
+E:\UPN\CICLO III\Fundamentos de Programación\proyecto\VillaClub3\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.FrmMenuPrincipal.resources
+E:\UPN\CICLO III\Fundamentos de Programación\proyecto\VillaClub3\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.FrmBusqueda.resources
+E:\UPN\CICLO III\Fundamentos de Programación\proyecto\VillaClub3\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.FrmPagos.resources
+E:\UPN\CICLO III\Fundamentos de Programación\proyecto\VillaClub3\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.FrmResidentes.resources
+E:\UPN\CICLO III\Fundamentos de Programación\proyecto\VillaClub3\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.csproj.GenerateResource.cache
+E:\UPN\CICLO III\Fundamentos de Programación\proyecto\VillaClub3\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.GeneratedMSBuildEditorConfig.editorconfig
+E:\UPN\CICLO III\Fundamentos de Programación\proyecto\VillaClub3\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.AssemblyInfoInputs.cache
+E:\UPN\CICLO III\Fundamentos de Programación\proyecto\VillaClub3\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.AssemblyInfo.cs
+E:\UPN\CICLO III\Fundamentos de Programación\proyecto\VillaClub3\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.csproj.CoreCompileInputs.cache
+E:\UPN\CICLO III\Fundamentos de Programación\proyecto\VillaClub3\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.dll
+E:\UPN\CICLO III\Fundamentos de Programación\proyecto\VillaClub3\VillaClub3\obj\Debug\net8.0-windows\refint\VillaClub3.dll
+E:\UPN\CICLO III\Fundamentos de Programación\proyecto\VillaClub3\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.pdb
+E:\UPN\CICLO III\Fundamentos de Programación\proyecto\VillaClub3\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.genruntimeconfig.cache
+E:\UPN\CICLO III\Fundamentos de Programación\proyecto\VillaClub3\VillaClub3\obj\Debug\net8.0-windows\ref\VillaClub3.dll
+C:\Users\usuar\source\repos\VILLACLUB3\VillaClub3\VillaClub3\bin\Debug\net8.0-windows\VillaClub3.exe
+C:\Users\usuar\source\repos\VILLACLUB3\VillaClub3\VillaClub3\bin\Debug\net8.0-windows\VillaClub3.deps.json
+C:\Users\usuar\source\repos\VILLACLUB3\VillaClub3\VillaClub3\bin\Debug\net8.0-windows\VillaClub3.runtimeconfig.json
+C:\Users\usuar\source\repos\VILLACLUB3\VillaClub3\VillaClub3\bin\Debug\net8.0-windows\VillaClub3.runtimeconfig.dev.json
+C:\Users\usuar\source\repos\VILLACLUB3\VillaClub3\VillaClub3\bin\Debug\net8.0-windows\VillaClub3.dll
+C:\Users\usuar\source\repos\VILLACLUB3\VillaClub3\VillaClub3\bin\Debug\net8.0-windows\VillaClub3.pdb
+C:\Users\usuar\source\repos\VILLACLUB3\VillaClub3\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.FrmMenuPrincipal.resources
+C:\Users\usuar\source\repos\VILLACLUB3\VillaClub3\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.FrmBusqueda.resources
+C:\Users\usuar\source\repos\VILLACLUB3\VillaClub3\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.FrmPagos.resources
+C:\Users\usuar\source\repos\VILLACLUB3\VillaClub3\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.FrmResidentes.resources
+C:\Users\usuar\source\repos\VILLACLUB3\VillaClub3\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.csproj.GenerateResource.cache
+C:\Users\usuar\source\repos\VILLACLUB3\VillaClub3\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuar\source\repos\VILLACLUB3\VillaClub3\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.AssemblyInfoInputs.cache
+C:\Users\usuar\source\repos\VILLACLUB3\VillaClub3\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.AssemblyInfo.cs
+C:\Users\usuar\source\repos\VILLACLUB3\VillaClub3\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.csproj.CoreCompileInputs.cache
+C:\Users\usuar\source\repos\VILLACLUB3\VillaClub3\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.sourcelink.json
+C:\Users\usuar\source\repos\VILLACLUB3\VillaClub3\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.dll
+C:\Users\usuar\source\repos\VILLACLUB3\VillaClub3\VillaClub3\obj\Debug\net8.0-windows\refint\VillaClub3.dll
+C:\Users\usuar\source\repos\VILLACLUB3\VillaClub3\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.pdb
+C:\Users\usuar\source\repos\VILLACLUB3\VillaClub3\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.genruntimeconfig.cache
+C:\Users\usuar\source\repos\VILLACLUB3\VillaClub3\VillaClub3\obj\Debug\net8.0-windows\ref\VillaClub3.dll
+C:\Users\usuar\source\repos\VILLACLUB3\VillaClub3\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.csproj.Up2Date
+D:\VillaClub3\bin\Debug\net8.0-windows\VillaClub3.exe
+D:\VillaClub3\bin\Debug\net8.0-windows\VillaClub3.deps.json
+D:\VillaClub3\bin\Debug\net8.0-windows\VillaClub3.runtimeconfig.json
+D:\VillaClub3\bin\Debug\net8.0-windows\VillaClub3.runtimeconfig.dev.json
+D:\VillaClub3\bin\Debug\net8.0-windows\VillaClub3.dll
+D:\VillaClub3\bin\Debug\net8.0-windows\VillaClub3.pdb
+D:\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.FrmMenuPrincipal.resources
+D:\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.FrmBusqueda.resources
+D:\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.FrmPagos.resources
+D:\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.FrmResidentes.resources
+D:\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.csproj.GenerateResource.cache
+D:\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.GeneratedMSBuildEditorConfig.editorconfig
+D:\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.AssemblyInfoInputs.cache
+D:\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.AssemblyInfo.cs
+D:\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.csproj.CoreCompileInputs.cache
+D:\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.dll
+D:\VillaClub3\obj\Debug\net8.0-windows\refint\VillaClub3.dll
+D:\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.pdb
+D:\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.genruntimeconfig.cache
+D:\VillaClub3\obj\Debug\net8.0-windows\ref\VillaClub3.dll
+D:\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.csproj.Up2Date
+E:\VillaClub3\bin\Debug\net8.0-windows\VillaClub3.exe
+E:\VillaClub3\bin\Debug\net8.0-windows\VillaClub3.deps.json
+E:\VillaClub3\bin\Debug\net8.0-windows\VillaClub3.runtimeconfig.json
+E:\VillaClub3\bin\Debug\net8.0-windows\VillaClub3.dll
+E:\VillaClub3\bin\Debug\net8.0-windows\VillaClub3.pdb
+E:\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.FrmMenuPrincipal.resources
+E:\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.FrmBusqueda.resources
+E:\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.FrmPagos.resources
+E:\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.FrmResidentes.resources
+E:\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.csproj.GenerateResource.cache
+E:\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.GeneratedMSBuildEditorConfig.editorconfig
+E:\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.AssemblyInfoInputs.cache
+E:\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.AssemblyInfo.cs
+E:\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.csproj.CoreCompileInputs.cache
+E:\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.dll
+E:\VillaClub3\obj\Debug\net8.0-windows\refint\VillaClub3.dll
+E:\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.pdb
+E:\VillaClub3\obj\Debug\net8.0-windows\VillaClub3.genruntimeconfig.cache
+E:\VillaClub3\obj\Debug\net8.0-windows\ref\VillaClub3.dll
